@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.5.1",
+    "fortnite": "^4.3.2",
+    "math.js": "^1.1.45",
+    "mathjs": "^6.2.5",
+    "nodemon": "^2.0.1",
+    "superagent": "^5.1.0",
+    "urban": "^0.3.2",
+    "util": "^0.12.1"
+  }
+}
