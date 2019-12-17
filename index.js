@@ -7,11 +7,14 @@ const superagent = require('superagent');
 const bot = new Discord.Client();
 
 
-
+bot.on("ready",async() => {
+    console.log("I have set the status to idle!")
+    bot.user.setStatus("idle")
+})
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online!`)
-    bot.user.setActivity("In Development", {type: "PLAYING"})
+    bot.user.setActivity("In Development", {type: "PLAYING"}) //You can always change this
 })
 
 const fs = require('fs');
